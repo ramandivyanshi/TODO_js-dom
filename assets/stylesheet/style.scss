@@ -1,15 +1,18 @@
-.container {
-    width: 55%;
-    background-color: rgb(136, 205, 233);
-    margin: 0 auto;
-}
-
 body {
     margin: 0;
+    width: 100%;
+}
+
+.container {
     width: 50%;
+    padding: 1rem;
+    background-color: rgb(224, 207, 207);
+    margin: 0 auto;
+    border-radius: 10px;
 }
 
 .header {
+    border-radius: 10px;
     background-color: black;
     padding: 30px 40px;
     color: white;
@@ -38,24 +41,27 @@ input {
 }
 
 ul {
+    list-style: none;
     padding: 0px;
 }
 
 ul li {
+    margin-bottom: 10px;
+    border-radius: 5px;
     position: relative;
     padding: 12px 8px 12px 40px;
-    background: rgb(191, 188, 188);
+    background: #bfbcbc;
     font-size: 1rem;
     height: 1rem;
 }
 
 ul li:hover {
-    background: rgb(113, 231, 16);
+    background: #71e710;
 }
 
 ul li.done {
-    background: rgb(238, 9, 9);
-    color: white;
+    background: #f7f0f0;
+    color: black;
     text-decoration: line-through;
 }
 
